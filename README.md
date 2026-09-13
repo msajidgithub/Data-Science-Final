@@ -15,7 +15,7 @@ End-to-end Machine Learning project that predicts whether a customer will churn 
 1. Cleaned data (removed duplicates and `customer_id`, filled missing values)
 2. Explored churn patterns with visualizations
 3. Built a Scikit-Learn Pipeline with `ColumnTransformer` (impute, scale, one-hot encode)
-4. Trained Logistic Regression and Random Forest
+4. Trained and compared Logistic Regression, Random Forest, Decision Tree, KNN, and SVM
 5. Selected **Logistic Regression** based on test-set Accuracy, Precision, Recall, and F1
 6. Saved the full pipeline as `churn_pipeline.pkl`
 
@@ -28,7 +28,11 @@ streamlit run app.py
 
 ## Live app
 
-Add your Streamlit Community Cloud link here after deployment.
+https://msajidgithub-data-science-final-app-ayu3pc.streamlit.app/
+
+## GitHub repository
+
+https://github.com/msajidgithub/Data-Science-Final
 
 ## Author
 
